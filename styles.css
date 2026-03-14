@@ -204,10 +204,14 @@ h1 {
 
 .room-list {
   display: grid;
-  gap: 1.4rem;
+  gap: 1.8rem;
 }
 
 .room {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+  gap: 1.5rem;
+  align-items: start;
   padding-bottom: 1.4rem;
   border-bottom: 1px solid var(--line);
 }
@@ -226,9 +230,12 @@ h1 {
   margin: 0.7rem 0 0;
 }
 
-.section__note {
-  max-width: 42rem;
-  margin: 1.7rem 0 0;
+.room__content {
+  min-width: 0;
+}
+
+.room__media {
+  margin: 0;
 }
 
 .gallery {
@@ -426,6 +433,11 @@ h1 {
 
   .button {
     width: 100%;
+  }
+
+  .room {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
   .gallery {

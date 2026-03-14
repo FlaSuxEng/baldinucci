@@ -6,7 +6,7 @@
   <meta name="description" content="Appartamento in affitto in Via Baldinucci xx a Firenze, con tre camere, cucina e bagno e foto cliccabili a schermo intero.">
   <meta name="theme-color" content="#7a263d">
   <title>Via Baldinucci xx | Appartamento in affitto a Firenze</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260314-2">
 </head>
 <body>
   <a class="skip-link" href="#contenuto">Vai al contenuto</a>
@@ -22,7 +22,7 @@
       </p>
 
       <div class="hero__actions">
-        <a class="button button--primary" href="#galleria">Guarda le foto</a>
+        <a class="button button--primary" href="#camere">Guarda le foto</a>
         <a
           class="button button--whatsapp js-whatsapp-link"
           href="https://api.whatsapp.com/send?text=Ciao%2C%20vorrei%20ricevere%20informazioni%20sull%27appartamento%20in%20Via%20Baldinucci%20xx%20a%20Firenze."
@@ -38,7 +38,7 @@
   <main id="contenuto">
     <section class="section section--intro" id="camere">
       <div class="section__heading">
-        <p class="section__label">Le tre camere</p>
+        <p class="section__label">Camere e spazi condivisi</p>
         <h2>Descrizione dell'appartamento</h2>
         <p class="section__text">
           L'appartamento e' pensato per studentesse universitarie e si sviluppa
@@ -48,122 +48,129 @@
 
       <div class="room-list">
         <article class="room">
-          <h3>Camera 1</h3>
-          <p>
-            Camera singola luminosa, pensata per garantire tranquillita' e
-            concentrazione, con spazio adatto per letto, armadio e zona studio.
-          </p>
+          <div class="room__content">
+            <h3>Camera 1</h3>
+            <p>
+              Camera singola luminosa, pensata per garantire tranquillita' e
+              concentrazione, con spazio adatto per letto, armadio e zona studio.
+            </p>
+          </div>
+
+          <figure class="room__media gallery__item">
+            <a
+              class="gallery__button"
+              href="assets/images/appartamento-camera.svg"
+              data-gallery-group="camera-1"
+              aria-label="Apri la foto della camera 1"
+            >
+              <img src="assets/images/appartamento-camera.svg" alt="Camera 1 dell'appartamento">
+              <span class="gallery__meta">
+                <span class="gallery__caption">Camera 1</span>
+                <span class="gallery__count">Apri la foto</span>
+              </span>
+            </a>
+          </figure>
         </article>
 
         <article class="room">
-          <h3>Camera 2</h3>
-          <p>
-            Ambiente accogliente e ben organizzabile, ideale per chi cerca una
-            stanza pratica per vivere e studiare in modo confortevole.
-          </p>
+          <div class="room__content">
+            <h3>Camera 2</h3>
+            <p>
+              Ambiente accogliente e ben organizzabile, ideale per chi cerca una
+              stanza pratica per vivere e studiare in modo confortevole.
+            </p>
+          </div>
+
+          <figure class="room__media gallery__item">
+            <a
+              class="gallery__button"
+              href="assets/images/appartamento-camera-2.svg"
+              data-gallery-group="camera-2"
+              aria-label="Apri la foto della camera 2"
+            >
+              <img src="assets/images/appartamento-camera-2.svg" alt="Camera 2 dell'appartamento">
+              <span class="gallery__meta">
+                <span class="gallery__caption">Camera 2</span>
+                <span class="gallery__count">Apri la foto</span>
+              </span>
+            </a>
+          </figure>
         </article>
 
         <article class="room">
-          <h3>Camera 3</h3>
-          <p>
-            Stanza riservata e versatile, adatta a una quotidianita' ordinata,
-            con spazio sufficiente per arredi essenziali e area scrivania.
-          </p>
+          <div class="room__content">
+            <h3>Camera 3</h3>
+            <p>
+              Stanza riservata e versatile, adatta a una quotidianita' ordinata,
+              con spazio sufficiente per arredi essenziali e area scrivania.
+            </p>
+          </div>
+
+          <figure class="room__media gallery__item">
+            <a
+              class="gallery__button"
+              href="assets/images/appartamento-camera-3.svg"
+              data-gallery-group="camera-3"
+              aria-label="Apri la foto della camera 3"
+            >
+              <img src="assets/images/appartamento-camera-3.svg" alt="Camera 3 dell'appartamento">
+              <span class="gallery__meta">
+                <span class="gallery__caption">Camera 3</span>
+                <span class="gallery__count">Apri la foto</span>
+              </span>
+            </a>
+          </figure>
         </article>
-      </div>
 
-      <p class="section__note">
-        Cucina e bagno completano l'appartamento e sono visibili nella galleria
-        fotografica qui sotto.
-      </p>
-    </section>
+        <article class="room">
+          <div class="room__content">
+            <h3>Cucina condivisa</h3>
+            <p>
+              La cucina e' pensata per l'uso quotidiano, con spazi pratici per
+              preparare i pasti e organizzare la vita di casa con comodita'.
+            </p>
+          </div>
 
-    <section class="section" id="galleria">
-      <div class="section__heading">
-        <p class="section__label">Galleria</p>
-        <h2>Foto cliccabili per camere, cucina e bagno</h2>
-        <p class="section__text">
-          Ogni immagine si apre a schermo intero. Se per una stanza verranno
-          aggiunte piu' foto, all'interno della vista ingrandita potrai
-          scorrerle con frecce, tastiera o gesto laterale da smartphone.
-        </p>
-      </div>
+          <figure class="room__media gallery__item">
+            <a
+              class="gallery__button"
+              href="assets/images/appartamento-cucina.svg"
+              data-gallery-group="cucina"
+              aria-label="Apri la foto della cucina"
+            >
+              <img src="assets/images/appartamento-cucina.svg" alt="Cucina dell'appartamento">
+              <span class="gallery__meta">
+                <span class="gallery__caption">Cucina</span>
+                <span class="gallery__count">Apri la foto</span>
+              </span>
+            </a>
+          </figure>
+        </article>
 
-      <div class="gallery" role="list">
-        <figure class="gallery__item" role="listitem">
-          <a
-            class="gallery__button"
-            href="assets/images/appartamento-camera.svg"
-            data-gallery-group="camera-1"
-            aria-label="Apri la galleria della camera 1"
-          >
-            <img src="assets/images/appartamento-camera.svg" alt="Camera 1 dell'appartamento">
-            <span class="gallery__meta">
-              <span class="gallery__caption">Camera 1</span>
-              <span class="gallery__count">Apri la foto</span>
-            </span>
-          </a>
-        </figure>
+        <article class="room">
+          <div class="room__content">
+            <h3>Bagno</h3>
+            <p>
+              Il bagno completa l'appartamento con uno spazio semplice e
+              funzionale, facilmente fruibile nella quotidianita'.
+            </p>
+          </div>
 
-        <figure class="gallery__item" role="listitem">
-          <a
-            class="gallery__button"
-            href="assets/images/appartamento-camera-2.svg"
-            data-gallery-group="camera-2"
-            aria-label="Apri la galleria della camera 2"
-          >
-            <img src="assets/images/appartamento-camera-2.svg" alt="Camera 2 dell'appartamento">
-            <span class="gallery__meta">
-              <span class="gallery__caption">Camera 2</span>
-              <span class="gallery__count">Apri la foto</span>
-            </span>
-          </a>
-        </figure>
-
-        <figure class="gallery__item" role="listitem">
-          <a
-            class="gallery__button"
-            href="assets/images/appartamento-camera-3.svg"
-            data-gallery-group="camera-3"
-            aria-label="Apri la galleria della camera 3"
-          >
-            <img src="assets/images/appartamento-camera-3.svg" alt="Camera 3 dell'appartamento">
-            <span class="gallery__meta">
-              <span class="gallery__caption">Camera 3</span>
-              <span class="gallery__count">Apri la foto</span>
-            </span>
-          </a>
-        </figure>
-
-        <figure class="gallery__item" role="listitem">
-          <a
-            class="gallery__button"
-            href="assets/images/appartamento-cucina.svg"
-            data-gallery-group="cucina"
-            aria-label="Apri la galleria della cucina"
-          >
-            <img src="assets/images/appartamento-cucina.svg" alt="Cucina dell'appartamento">
-            <span class="gallery__meta">
-              <span class="gallery__caption">Cucina</span>
-              <span class="gallery__count">Apri la foto</span>
-            </span>
-          </a>
-        </figure>
-
-        <figure class="gallery__item" role="listitem">
-          <a
-            class="gallery__button"
-            href="assets/images/appartamento-bagno.svg"
-            data-gallery-group="bagno"
-            aria-label="Apri la galleria del bagno"
-          >
-            <img src="assets/images/appartamento-bagno.svg" alt="Bagno dell'appartamento">
-            <span class="gallery__meta">
-              <span class="gallery__caption">Bagno</span>
-              <span class="gallery__count">Apri la foto</span>
-            </span>
-          </a>
-        </figure>
+          <figure class="room__media gallery__item">
+            <a
+              class="gallery__button"
+              href="assets/images/appartamento-bagno.svg"
+              data-gallery-group="bagno"
+              aria-label="Apri la foto del bagno"
+            >
+              <img src="assets/images/appartamento-bagno.svg" alt="Bagno dell'appartamento">
+              <span class="gallery__meta">
+                <span class="gallery__caption">Bagno</span>
+                <span class="gallery__count">Apri la foto</span>
+              </span>
+            </a>
+          </figure>
+        </article>
       </div>
     </section>
 
@@ -198,6 +205,6 @@
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=20260314-2"></script>
 </body>
 </html>
