@@ -168,11 +168,6 @@ h1 {
   box-shadow: 0 16px 28px rgba(18, 140, 126, 0.26);
 }
 
-.button--large {
-  min-width: 220px;
-  padding-inline: 1.7rem;
-}
-
 .section {
   width: min(1120px, 100%);
   margin: 0 auto;
@@ -181,11 +176,6 @@ h1 {
 
 .section--intro {
   padding-top: clamp(3.4rem, 7vw, 5rem);
-}
-
-.section--contact {
-  padding-top: 1rem;
-  padding-bottom: 4rem;
 }
 
 .section__heading {
@@ -197,15 +187,13 @@ h1 {
   color: var(--primary);
 }
 
-.section__heading h2,
-.section--contact h2 {
+.section__heading h2 {
   margin-top: 0.7rem;
   font-size: clamp(1.9rem, 4vw, 3rem);
 }
 
 .section__text,
 .section__note,
-.contact__text,
 .room p {
   color: var(--muted);
 }
@@ -288,18 +276,6 @@ h1 {
 
 .gallery__count {
   font-size: 0.95rem;
-  color: var(--muted);
-}
-
-.contact__text {
-  max-width: 42rem;
-  margin: 1rem 0 1.6rem;
-}
-
-.footer {
-  width: min(1120px, 100%);
-  margin: 0 auto;
-  padding: 0 2rem 2rem;
   color: var(--muted);
 }
 
@@ -406,36 +382,50 @@ h1 {
 }
 
 @media (max-width: 760px) {
+  body {
+    padding-bottom: 9rem;
+  }
+
   .hero {
     min-height: auto;
     padding-top: 1.5rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 8.75rem;
   }
 
   .hero__content {
-    margin-top: 2.3rem;
+    margin-top: 1.75rem;
   }
 
   h1 {
     max-width: 13.5ch;
-    font-size: clamp(2.25rem, 10vw, 3.35rem);
+    font-size: clamp(2.05rem, 9vw, 3.05rem);
   }
 
   .hero__lead {
-    margin-top: 0.9rem;
-    font-size: 1rem;
+    margin-top: 0.8rem;
+    font-size: 0.98rem;
   }
 
   .hero__actions {
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    bottom: max(0.85rem, env(safe-area-inset-bottom));
     flex-direction: column;
     align-items: stretch;
     gap: 0.75rem;
-    width: min(100%, 320px);
-    margin-top: 1.35rem;
+    width: auto;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 0.75rem;
+    border-radius: 24px;
+    background: rgba(35, 31, 27, 0.36);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 24px 48px rgba(20, 14, 12, 0.28);
+    z-index: 20;
   }
 
-  .button,
-  .button--large {
+  .button {
     width: 100%;
   }
 
