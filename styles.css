@@ -383,46 +383,45 @@ h1 {
 
 @media (max-width: 760px) {
   body {
-    padding-bottom: 9rem;
+    padding-bottom: 0;
   }
 
   .hero {
     min-height: auto;
-    padding-top: 1.5rem;
-    padding-bottom: 8.75rem;
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
   }
 
   .hero__content {
-    margin-top: 1.75rem;
+    margin-top: 1.25rem;
+  }
+
+  .eyebrow {
+    display: none;
   }
 
   h1 {
-    max-width: 13.5ch;
-    font-size: clamp(2.05rem, 9vw, 3.05rem);
+    max-width: 12.5ch;
+    font-size: clamp(1.85rem, 8.5vw, 2.65rem);
   }
 
   .hero__lead {
-    margin-top: 0.8rem;
-    font-size: 0.98rem;
+    display: none;
   }
 
   .hero__actions {
-    position: fixed;
-    left: 1rem;
-    right: 1rem;
-    bottom: max(0.85rem, env(safe-area-inset-bottom));
+    position: static;
     flex-direction: column;
     align-items: stretch;
-    gap: 0.75rem;
-    width: auto;
-    max-width: 420px;
-    margin: 0 auto;
-    padding: 0.75rem;
-    border-radius: 24px;
-    background: rgba(35, 31, 27, 0.36);
-    backdrop-filter: blur(14px);
-    box-shadow: 0 24px 48px rgba(20, 14, 12, 0.28);
-    z-index: 20;
+    gap: 0.65rem;
+    width: min(100%, 320px);
+    max-width: 320px;
+    margin-top: 1rem;
+    padding: 0;
+    border-radius: 0;
+    background: none;
+    backdrop-filter: none;
+    box-shadow: none;
   }
 
   .button {
@@ -453,7 +452,7 @@ h1 {
 
 @media (max-width: 520px) {
   .hero {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
 
   .lightbox__close,
