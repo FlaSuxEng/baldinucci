@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pagina di presentazione di un appartamento in Via Baldinucci xx a Firenze, dedicato a studentesse universitarie e sole donne.">
+  <meta name="theme-color" content="#7a263d">
+  <title>Via Baldinucci xx | Appartamento in affitto a Firenze</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+  <header class="hero" id="top">
+    <nav class="topbar" aria-label="Navigazione principale">
+      <a class="brand" href="#top">Via Baldinucci xx</a>
+      <a class="topbar__cta" href="#contatto">Contatto rapido</a>
+    </nav>
+
+    <div class="hero__content">
+      <p class="eyebrow">Firenze · Via Baldinucci xx</p>
+      <h1>Appartamento in affitto per studentesse universitarie</h1>
+      <p class="hero__lead">
+        Una pagina unica, elegante e responsive per presentare l'appartamento:
+        descrizione chiara, immagini cliccabili e ingrandibili, e un bottone
+        WhatsApp sempre a portata di mano sia da smartphone sia da PC.
+      </p>
+
+      <div class="hero__actions">
+        <a class="button button--primary" href="#galleria">Guarda le foto</a>
+        <a
+          class="button button--whatsapp js-whatsapp-link"
+          href="https://api.whatsapp.com/send?text=Ciao%2C%20vorrei%20ricevere%20informazioni%20sull%27appartamento%20in%20Via%20Baldinucci%20xx%20a%20Firenze."
+          data-whatsapp-message="Ciao, vorrei ricevere informazioni sull'appartamento in Via Baldinucci xx a Firenze."
+          target="_blank"
+          rel="noreferrer"
+        >
+          Scrivi su WhatsApp
+        </a>
+      </div>
+
+      <ul class="hero__tags" aria-label="Caratteristiche principali">
+        <li>Solo donne</li>
+        <li>Ideale per studentesse</li>
+        <li>Compatibile con smartphone e PC</li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <section class="section">
+      <div class="section__heading">
+        <p class="section__label">L'appartamento</p>
+        <h2>Una presentazione calda, semplice e ispirata alla bellezza di Firenze</h2>
+      </div>
+
+      <div class="intro-grid">
+        <article class="card">
+          <p>
+            Questa pagina e' pensata per valorizzare un appartamento situato in
+            Via Baldinucci xx a Firenze, con una comunicazione chiara, moderna e
+            facile da consultare anche da telefono.
+          </p>
+          <p>
+            Il messaggio mette subito in evidenza che la proposta e' dedicata a
+            studentesse universitarie e a sole donne, lasciando spazio a immagini
+            grandi, leggibili e apribili a schermo intero.
+          </p>
+          <p>
+            Il risultato e' una landing page statica perfetta per GitHub Pages:
+            veloce, leggera e pronta per essere pubblicata senza dipendenze
+            esterne o configurazioni complesse.
+          </p>
+        </article>
+
+        <article class="card card--accent">
+          <h3>Perche' questa pagina funziona</h3>
+          <ul class="feature-list">
+            <li>Struttura a singola pagina, diretta e facile da scorrere.</li>
+            <li>Design responsive ottimizzato per mobile e desktop.</li>
+            <li>Galleria fotografica con lightbox e navigazione intuitiva.</li>
+            <li>Contatto rapido con messaggio WhatsApp precompilato.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--compact">
+      <div class="highlights">
+        <article class="highlight">
+          <p class="highlight__eyebrow">Solo donne</p>
+          <h3>Target immediato</h3>
+          <p>
+            La proposta comunica in modo diretto che l'appartamento e' pensato
+            per studentesse universitarie.
+          </p>
+        </article>
+
+        <article class="highlight">
+          <p class="highlight__eyebrow">Foto ingrandibili</p>
+          <h3>Esperienza intuitiva</h3>
+          <p>
+            Ogni immagine puo' essere aperta in grande con un tocco da mobile o
+            con un click da computer.
+          </p>
+        </article>
+
+        <article class="highlight">
+          <p class="highlight__eyebrow">WhatsApp</p>
+          <h3>Contatto veloce</h3>
+          <p>
+            Nessun modulo complicato: chi visita la pagina puo' scrivere in pochi
+            secondi con un messaggio gia' pronto.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="galleria">
+      <div class="section__heading">
+        <p class="section__label">Galleria</p>
+        <h2>Foto cliccabili e ingrandibili</h2>
+        <p class="section__text">
+          Tocca o clicca ogni immagine per aprirla in grande. Le immagini
+          presenti sono segnaposto locali, cosi' puoi sostituirle facilmente con
+          le foto reali dell'appartamento senza cambiare il layout.
+        </p>
+      </div>
+
+      <div class="gallery" role="list">
+        <figure class="gallery__item" role="listitem">
+          <a
+            class="gallery__button"
+            href="assets/images/appartamento-soggiorno.svg"
+            data-gallery-image="assets/images/appartamento-soggiorno.svg"
+            data-gallery-title="Zona giorno"
+            data-gallery-alt="Anteprima segnaposto della zona giorno dell'appartamento"
+            aria-label="Apri la foto della zona giorno"
+          >
+            <img src="assets/images/appartamento-soggiorno.svg" alt="Zona giorno dell'appartamento">
+            <span class="gallery__caption">Zona giorno</span>
+          </a>
+        </figure>
+
+        <figure class="gallery__item" role="listitem">
+          <a
+            class="gallery__button"
+            href="assets/images/appartamento-camera.svg"
+            data-gallery-image="assets/images/appartamento-camera.svg"
+            data-gallery-title="Camera"
+            data-gallery-alt="Anteprima segnaposto della camera dell'appartamento"
+            aria-label="Apri la foto della camera"
+          >
+            <img src="assets/images/appartamento-camera.svg" alt="Camera dell'appartamento">
+            <span class="gallery__caption">Camera</span>
+          </a>
+        </figure>
+
+        <figure class="gallery__item" role="listitem">
+          <a
+            class="gallery__button"
+            href="assets/images/appartamento-cucina.svg"
+            data-gallery-image="assets/images/appartamento-cucina.svg"
+            data-gallery-title="Cucina"
+            data-gallery-alt="Anteprima segnaposto della cucina dell'appartamento"
+            aria-label="Apri la foto della cucina"
+          >
+            <img src="assets/images/appartamento-cucina.svg" alt="Cucina dell'appartamento">
+            <span class="gallery__caption">Cucina</span>
+          </a>
+        </figure>
+
+        <figure class="gallery__item" role="listitem">
+          <a
+            class="gallery__button"
+            href="assets/images/appartamento-bagno.svg"
+            data-gallery-image="assets/images/appartamento-bagno.svg"
+            data-gallery-title="Bagno"
+            data-gallery-alt="Anteprima segnaposto del bagno dell'appartamento"
+            aria-label="Apri la foto del bagno"
+          >
+            <img src="assets/images/appartamento-bagno.svg" alt="Bagno dell'appartamento">
+            <span class="gallery__caption">Bagno</span>
+          </a>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="contatto">
+      <div class="contact-card">
+        <div class="contact-card__content">
+          <p class="section__label section__label--light">Contatto rapido</p>
+          <h2>Richiedi informazioni e organizza una visita</h2>
+          <p>
+            Il bottone apre WhatsApp con un testo gia' pronto, cosi' chi visita
+            la pagina puo' chiedere disponibilita', condizioni e dettagli in modo
+            immediato.
+          </p>
+        </div>
+
+        <a
+          class="button button--whatsapp button--large js-whatsapp-link"
+          href="https://api.whatsapp.com/send?text=Ciao%2C%20vorrei%20ricevere%20informazioni%20sull%27appartamento%20in%20Via%20Baldinucci%20xx%20a%20Firenze."
+          data-whatsapp-message="Ciao, vorrei ricevere informazioni sull'appartamento in Via Baldinucci xx a Firenze."
+          target="_blank"
+          rel="noreferrer"
+        >
+          Apri WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Pagina di presentazione per un appartamento in Via Baldinucci xx, Firenze.</p>
+  </footer>
+
+  <div class="lightbox" data-lightbox hidden>
+    <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+      <button class="lightbox__close" type="button" data-close-lightbox aria-label="Chiudi la galleria">
+        ×
+      </button>
+
+      <button class="lightbox__nav lightbox__nav--prev" type="button" data-lightbox-prev aria-label="Immagine precedente">
+        ‹
+      </button>
+
+      <button class="lightbox__nav lightbox__nav--next" type="button" data-lightbox-next aria-label="Immagine successiva">
+        ›
+      </button>
+
+      <div class="lightbox__image-wrapper">
+        <img class="lightbox__image" data-lightbox-image src="" alt="">
+      </div>
+
+      <div class="lightbox__meta">
+        <div>
+          <p class="lightbox__eyebrow">Galleria fotografica</p>
+          <p class="lightbox__title" id="lightbox-title" data-lightbox-title></p>
+        </div>
+        <p class="lightbox__counter" data-lightbox-counter></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

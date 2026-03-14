@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7E3C2"/>
+      <stop offset="1" stop-color="#B9784E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="36" fill="url(#bg)"/>
+  <rect y="642" width="1200" height="258" fill="#9A6343"/>
+  <rect x="112" y="154" width="976" height="110" rx="22" fill="#F1EEE9"/>
+  <rect x="112" y="268" width="976" height="36" rx="18" fill="#6F3A39"/>
+  <rect x="148" y="336" width="196" height="246" rx="20" fill="#F6F4F0"/>
+  <rect x="374" y="336" width="196" height="246" rx="20" fill="#F6F4F0"/>
+  <rect x="600" y="336" width="196" height="246" rx="20" fill="#F6F4F0"/>
+  <rect x="826" y="336" width="226" height="246" rx="20" fill="#F6F4F0"/>
+  <rect x="452" y="420" width="90" height="18" rx="9" fill="#D0B19A"/>
+  <rect x="678" y="420" width="90" height="18" rx="9" fill="#D0B19A"/>
+  <rect x="886" y="412" width="112" height="102" rx="14" fill="#C5DCE7"/>
+  <circle cx="224" cy="210" r="18" fill="#E9C37B"/>
+  <circle cx="286" cy="210" r="18" fill="#E9C37B"/>
+  <circle cx="348" cy="210" r="18" fill="#E9C37B"/>
+  <text x="78" y="766" fill="#FFF7EF" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700">Cucina</text>
+  <text x="78" y="826" fill="#FFF2E5" font-family="Arial, Helvetica, sans-serif" font-size="28">Inserisci qui la foto reale della cucina</text>
+</svg>

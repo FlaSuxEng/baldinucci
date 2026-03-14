@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8D8E8"/>
+      <stop offset="1" stop-color="#8B648D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="36" fill="url(#bg)"/>
+  <rect y="640" width="1200" height="260" fill="#9F7395"/>
+  <rect x="120" y="126" width="294" height="228" rx="24" fill="#E4F0FA"/>
+  <rect x="154" y="160" width="108" height="160" rx="14" fill="#C7E0F1"/>
+  <rect x="280" y="160" width="108" height="160" rx="14" fill="#C7E0F1"/>
+  <rect x="438" y="470" width="398" height="98" rx="28" fill="#F6EBDC"/>
+  <rect x="402" y="548" width="470" height="86" rx="22" fill="#F2DBC2"/>
+  <rect x="878" y="180" width="180" height="324" rx="18" fill="#744E72"/>
+  <rect x="914" y="214" width="108" height="18" rx="9" fill="#E6C58F"/>
+  <rect x="914" y="246" width="108" height="18" rx="9" fill="#E6C58F"/>
+  <rect x="914" y="278" width="108" height="18" rx="9" fill="#E6C58F"/>
+  <rect x="126" y="464" width="166" height="122" rx="18" fill="#F8EFE5"/>
+  <rect x="154" y="494" width="110" height="18" rx="9" fill="#D0B4A7"/>
+  <circle cx="636" cy="252" r="44" fill="#F7D8A7"/>
+  <text x="78" y="766" fill="#FFF7FB" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700">Camera</text>
+  <text x="78" y="826" fill="#FFF0FB" font-family="Arial, Helvetica, sans-serif" font-size="28">Inserisci qui la foto reale della camera</text>
+</svg>
