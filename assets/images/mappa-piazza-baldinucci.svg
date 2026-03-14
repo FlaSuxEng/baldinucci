@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6E8DA"/>
+      <stop offset="1" stop-color="#F0DCC4"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="900" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#6D4A36" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect width="1200" height="900" rx="36" fill="url(#bg)"/>
+  </g>
+  <rect x="58" y="58" width="1084" height="784" rx="28" fill="#FFF8F1" stroke="#D4B89D" stroke-width="2"/>
+  <path d="M118 200C232 152 346 144 470 182C594 220 690 228 812 196C900 172 972 134 1084 122" stroke="#D9CAB9" stroke-width="22" stroke-linecap="round"/>
+  <path d="M148 356C278 338 390 354 520 404C628 446 726 458 858 432C952 414 1028 370 1090 332" stroke="#E2D3C1" stroke-width="18" stroke-linecap="round"/>
+  <path d="M138 612C246 560 358 546 500 582C632 616 756 622 888 592C966 574 1038 540 1092 502" stroke="#E4D8C8" stroke-width="18" stroke-linecap="round"/>
+  <path d="M260 110C246 224 260 318 328 410C396 502 486 566 610 622C730 676 826 712 914 810" stroke="#AFD0DD" stroke-width="18" stroke-linecap="round"/>
+  <path d="M184 720C292 686 386 686 496 714C602 740 714 750 832 732C920 718 998 690 1060 648" stroke="#CDA56F" stroke-width="10" stroke-linecap="round" stroke-dasharray="16 18"/>
+  <path d="M230 110L920 780" stroke="#ECE1D4" stroke-width="10" stroke-dasharray="12 18"/>
+  <path d="M1020 162L388 776" stroke="#ECE1D4" stroke-width="10" stroke-dasharray="12 18"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="94" y="126" fill="#7A263D" font-size="38" font-weight="700">Piazza Baldinucci e poli universitari di Firenze</text>
+    <text x="94" y="162" fill="#6D5D50" font-size="22">Mappa schematica cliccabile: apri Google Maps per il punto esatto.</text>
+  </g>
+
+  <g>
+    <circle cx="394" cy="250" r="18" fill="#B3263B"/>
+    <path d="M394 220C412 220 426 234 426 252C426 281 394 316 394 316C394 316 362 281 362 252C362 234 376 220 394 220Z" fill="#C6283B"/>
+    <circle cx="394" cy="252" r="10" fill="#FFF2F2"/>
+    <text x="438" y="248" fill="#6C2030" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Piazza Baldinucci</text>
+    <text x="438" y="282" fill="#6C2030" font-family="Arial, Helvetica, sans-serif" font-size="20">Punto di riferimento dell'appartamento</text>
+  </g>
+
+  <g>
+    <circle cx="728" cy="306" r="16" fill="#7A263D"/>
+    <rect x="756" y="258" width="252" height="76" rx="18" fill="#7A263D"/>
+    <text x="778" y="291" fill="#FFF7F2" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Polo di Novoli</text>
+    <text x="778" y="318" fill="#FCEBDE" font-family="Arial, Helvetica, sans-serif" font-size="18">Economia, Giurisprudenza, Scienze sociali</text>
+  </g>
+
+  <g>
+    <circle cx="286" cy="394" r="16" fill="#6F3652"/>
+    <rect x="102" y="418" width="308" height="82" rx="18" fill="#6F3652"/>
+    <text x="126" y="452" fill="#FFF7FB" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Careggi / Morgagni</text>
+    <text x="126" y="480" fill="#F7E7F1" font-family="Arial, Helvetica, sans-serif" font-size="18">Medicina, area biomedica e servizi sanitari</text>
+  </g>
+
+  <g>
+    <circle cx="620" cy="450" r="16" fill="#8A5A36"/>
+    <rect x="648" y="406" width="262" height="76" rx="18" fill="#8A5A36"/>
+    <text x="672" y="438" fill="#FFF8F1" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Santa Marta</text>
+    <text x="672" y="466" fill="#F7E9DE" font-family="Arial, Helvetica, sans-serif" font-size="18">Ingegneria e laboratori</text>
+  </g>
+
+  <g>
+    <circle cx="502" cy="580" r="16" fill="#C98055"/>
+    <rect x="530" y="538" width="330" height="76" rx="18" fill="#C98055"/>
+    <text x="554" y="570" fill="#FFF8F1" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Centro storico</text>
+    <text x="554" y="598" fill="#FFF1E8" font-family="Arial, Helvetica, sans-serif" font-size="18">Lettere, Architettura, sedi umanistiche</text>
+  </g>
+
+  <g>
+    <circle cx="260" cy="642" r="16" fill="#447A5B"/>
+    <rect x="290" y="600" width="248" height="72" rx="18" fill="#447A5B"/>
+    <text x="314" y="632" fill="#F4FFF8" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Cascine</text>
+    <text x="314" y="658" fill="#E8FFF0" font-family="Arial, Helvetica, sans-serif" font-size="18">Agraria e aree verdi</text>
+  </g>
+
+  <g>
+    <rect x="806" y="666" width="264" height="112" rx="20" fill="#FFF5EA" stroke="#D4B89D" stroke-width="2"/>
+    <text x="832" y="705" fill="#7A263D" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Lettura rapida</text>
+    <text x="832" y="736" fill="#6D5D50" font-family="Arial, Helvetica, sans-serif" font-size="18">Piazza Baldinucci e' collegata</text>
+    <text x="832" y="760" fill="#6D5D50" font-family="Arial, Helvetica, sans-serif" font-size="18">ai principali poli UNIFI in citta'.</text>
+  </g>
+</svg>
