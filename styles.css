@@ -84,43 +84,14 @@ button:focus-visible {
     linear-gradient(180deg, rgba(10, 6, 10, 0.18), rgba(10, 6, 10, 0.34));
 }
 
-.topbar,
 .hero__content {
   position: relative;
   z-index: 1;
 }
 
-.topbar {
-  width: min(1120px, 100%);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.brand,
-.topbar__cta {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.brand {
-  font-weight: 800;
-  letter-spacing: 0.03em;
-}
-
-.topbar__cta {
-  padding: 0.8rem 1rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(10px);
-}
-
 .hero__content {
   width: min(1120px, 100%);
-  margin: clamp(4rem, 10vw, 7rem) auto 0;
+  margin: clamp(3rem, 8vw, 6rem) auto 0;
   padding-bottom: 1rem;
 }
 
@@ -435,19 +406,32 @@ h1 {
 }
 
 @media (max-width: 760px) {
-  .topbar {
-    flex-direction: column;
-    align-items: flex-start;
+  .hero {
+    min-height: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .hero__content {
+    margin-top: 2.3rem;
   }
 
   h1 {
-    max-width: 15ch;
+    max-width: 13.5ch;
+    font-size: clamp(2.25rem, 10vw, 3.35rem);
+  }
+
+  .hero__lead {
+    margin-top: 0.9rem;
+    font-size: 1rem;
   }
 
   .hero__actions {
     flex-direction: column;
     align-items: stretch;
-    max-width: 320px;
+    gap: 0.75rem;
+    width: min(100%, 320px);
+    margin-top: 1.35rem;
   }
 
   .button,
