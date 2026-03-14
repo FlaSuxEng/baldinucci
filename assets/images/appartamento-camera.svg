@@ -19,6 +19,6 @@
   <rect x="126" y="464" width="166" height="122" rx="18" fill="#F8EFE5"/>
   <rect x="154" y="494" width="110" height="18" rx="9" fill="#D0B4A7"/>
   <circle cx="636" cy="252" r="44" fill="#F7D8A7"/>
-  <text x="78" y="766" fill="#FFF7FB" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700">Camera</text>
-  <text x="78" y="826" fill="#FFF0FB" font-family="Arial, Helvetica, sans-serif" font-size="28">Inserisci qui la foto reale della camera</text>
+  <text x="78" y="766" fill="#FFF7FB" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700">Camera 1</text>
+  <text x="78" y="826" fill="#FFF0FB" font-family="Arial, Helvetica, sans-serif" font-size="28">Inserisci qui la foto reale della camera 1</text>
 </svg>
